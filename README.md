@@ -12,7 +12,9 @@ I'm not saying we need to live in a vanilla world of monospaced characters and t
 
 I'm not a text-only nut. I like images and video as well. But it's all media formats have same problem with the mixing of style, function, and content. If your video stream is encoded with hints for keyframes and ad breaks, your video eventually will no longer play.
 
-And with all this important trivia in plain text it will work well for our voice assistants. Instead of getting a list of webpages we'll reliably get the answer. 
+And with all this important trivia in plain text it will work well for our voice assistants. Instead of getting a list of webpages we'll reliably get the answer.
+
+Even better arguments here: http://wiki.c2.com/?PowerOfPlainText
 
 (End of Rant)
 
