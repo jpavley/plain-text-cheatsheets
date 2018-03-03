@@ -1,0 +1,46 @@
+Apple Swift Syntax
+(iOS 11, Swift 4, Xcode 9)
+version 0.1
+
+NUMERIC LITERALS
+
+1234    // decimal integer literal
+0b101   // dinary integer literal
+0o127   // octal integer literal
+0x1AF   // hexadecimal integer literal
+
+0.1     // single floating point literal
+
+0x1234567890AB // Hexadecimal
+0b101010101010 // 
+
+1_000_000  // 1,000,000
+
+5.2e8   // decimal base 10 scientific notation
+0xFp1   // hexadecimal base 2 scientific notation (don't ask)
+
+NUMERIC TYPES
+
+var x: Int         // mutable integer variable value with explicit type
+var x: Int = 0     // set to initial value
+var x = 0          // inferred type
+let x = 0          // imutable variable
+
+var y: float        // mutable single floating point variable value with explicit type
+var y: float = 0.0  // set to initial value
+var y = 0.0         // inferred type
+let y = 0.0         // imutable variable
+
+var z: Double = 0.0  // double floating point
+
+var z: UInt = 0      // unsigned integer (larger range, positive only)
+
+// Int8, UInt8, Int16, UInt16, Int32, UInt32, Int64, UInt64
+
+
+
+
+
+
+
+

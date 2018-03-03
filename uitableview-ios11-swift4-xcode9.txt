@@ -1,0 +1,63 @@
+UI TableView Implementation Notes
+(iOS 11, Swift 4, Xcode 9)
+version 0.1
+
+Fewest, simplest steps to get an UITableView up and running in an app.
+
+WITHOUT CUSTOM CELL
+
+WITH CUSTOM CELL
+
+WITH SEARCH BAR
+
+Create a new single view iOS app.
+
+Drag a table view, not controller, on to main.storyboard.
+
+Add 4 edge alignment constraints with no margin but respect the safe area.
+
+Control drag the table view to the view controller object in the view hierarchy and shift set data source and data delegate.
+
+Configure the table view with the attributes inspector:
+- content dynamic prototypes
+- prototype cells 1
+
+Configure the table view cell with the attributes inspector:
+- style custom
+- identifier "cell"
+
+Configure the table view cell with the size inspector
+- Row Height 100
+
+Drag objects on to the table view cell to create a custom UI:
+- Labels, image views, etc.
+- Use constrains to align the objects inside the cell
+
+Create a new file cocoa touch class based on UITableViewCell and add it to the project.
+
+Use the assistant editor to show main.storyboard and UITableViewCell file side by side. Control drag the custom UI objects from inside the cell to the class and create an outlets.
+
+Switch the assistant editor to the UIViewController file. Control drag the table view to a location inside the view controller class and create an outlet.
+
+Add the interfaces UITableViewDelegate, UITableViewDataSource to your view controller class.
+
+Create a property to store your content as an array
+
+Add func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+
+inside numberOfRowsInSection return the count of the array.
+
+add func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+
+inside cellForRowAt indexPath do the following:
+
+- use UITableView.dequeueReusableCell(withIdentifier:) with the "cell" reuse identifier to get a reference to the cell and cast it to your custom UITableViewCell
+
+- set the data inside your custom cell controls using the array and indexPath.row
+
+
+
+
+
+
+

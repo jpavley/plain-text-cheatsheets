@@ -1,0 +1,87 @@
+GFM Markdown Cheatsheet
+(GitHub Flavored Markdown)
+version 0.1
+
+Headings 
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
+Horizontal Rule
+___
+---
+***
+
+Emphasis 
+
+**bold**
+_italics_
+~~strikethrough~~
+
+Blockquote
+
+> Level 1
+>> Level 2
+>>> Level 3
+
+List - Unordered
+
++ item
+  - item
+    * item
+
+List - Ordered
+
+1. item
+1. item
+1. item
+
+Code - Single Line
+
+`print(“cat”);`
+
+Code - multiline with Syntax highlighting
+
+``` swift
+func hiThere() -> String {
+  return “Hello.”
+}
+```
+
+Table - Left aligned text
+
+| heading | heading |
+| ------- | ------- |
+| cell    | cell, pipes don’t need to align |
+| cell    | cell    | 
+
+Table - Right aligned text
+
+| heading | heading |
+| -------:| -------:|
+| cell    | cell, pipes don’t need to align |
+| cell    | cell    | 
+
+Link - Simple
+
+[user visible string](http://uservisiblestring.com)
+
+Link - tooltip
+
+[user visible string](http://uservisiblestring.com “click me”)
+
+Link - jump to anchor tag
+
+[user visible string](#anchor1)
+## Anchor 1 <a id=“anchor1”></a>
+
+Image
+![user visible string](http://linktoimage.com/image.png)
+![user visible string](http://linktoimage.com/image.png “alt text”)
+
+![user visible string][ref1]
+[ref1]: (http://linktoimage.com/image.png “alt text”)
