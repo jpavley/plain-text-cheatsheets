@@ -10,6 +10,10 @@ Open up a source code file in any text editor from almost any era and the conten
 
 I'm not saying we need to live in a vanilla world of monospaced characters and two-color screens. We can always add formatting and functionality separately from the text. This is what Markdown and HTML were supposed to do. Our phones and laptops are powerful enough to use algorithms to smartly apply style as needed. This is what modern IDEs, like Xcode and Android Studio, do when they make source code more readable and navigable.
 
+![MS Word](https://github.com/jpavley/plain-text-cheatsheets/blob/master/images/Screen%20Shot%202018-03-03%20at%2010.23.07%20AM.png)
+![Nano](https://github.com/jpavley/plain-text-cheatsheets/blob/master/images/Screen%20Shot%202018-03-03%20at%2010.23.12%20AM.png)
+![Xcode](https://github.com/jpavley/plain-text-cheatsheets/blob/master/images/Screen%20Shot%202018-03-03%20at%2010.23.15%20AM.png)
+
 I'm not a text-only nut. I like images and video as well. But it's all media formats have same problem with the mixing of style, function, and content. If your video stream is encoded with hints for keyframes and ad breaks, your video eventually will no longer play.
 
 And with all this important trivia in plain text it will work well for our voice assistants. Instead of getting a list of webpages we'll reliably get the answer.
