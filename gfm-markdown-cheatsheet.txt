@@ -83,5 +83,6 @@ Image
 ![user visible string](http://linktoimage.com/image.png)
 ![user visible string](http://linktoimage.com/image.png “alt text”)
 
+Footnates
 ![user visible string][ref1]
 [ref1]: (http://linktoimage.com/image.png “alt text”)
