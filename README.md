@@ -2,7 +2,7 @@
 
 Nothing is better than plain text. Nothing. Not even Markdown or HTML. If the world would just agree to standardize on plain text, so many good things will happen!
 
-First, the Interest would get faster, cheaper, and better. Most of the performance, cost, and quality problems that plague our online life are caused by mixing content with style and function. (The rest are caused by caching.) If content, in this case text content, was 100% separated from style and function we would live in a world were web pages loaded instantly, cost less to host, and work reliably.
+First, the Internet would get faster, cheaper, and better. Most of the performance, cost, and quality problems that plague our online life are caused by mixing content with style and function. (The rest are caused by caching.) If content, in this case text content, was 100% separated from style and function we would live in a world were web pages loaded instantly, cost less to host, and work reliably.
 
 This claim is not idle speculation on my part! It's proven by decades of source code control. Imagine how terrible the software development world would be if code was not stored in a plain text format! Code would become specific to particular editors, operating systems, and applications--just like web pages and mobile apps are today. 
 
