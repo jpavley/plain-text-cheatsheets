@@ -1,0 +1,24 @@
+Xcode Shortcuts
+
+Some useful Xcode shortcuts. 
+
+Left Column
+command + 0 Show or Hide the left column
+command + 1 Project
+command + 2 Source Control
+command + 3 Symbol
+command + 4 Find
+command + 5 Issue
+command + 6 Test
+command + 7 Debug
+command + 8 Breakpoints
+command + 9 Report
+
+Right Column
+option + command + 0  Show or Hide the right column
+option + command + 1  File Inspector
+option + command + 2  Quick Help Inspector
+option + command + 3  Identity Inspector
+option + command + 4  Attributes Inspector
+option + command + 5  Size Inspector
+option + command + 6  Connections Inspector
