@@ -1,4 +1,6 @@
 Xcode Shortcuts
+(Xcode 9)
+Version 1.0
 
 Some useful Xcode shortcuts. 
 
