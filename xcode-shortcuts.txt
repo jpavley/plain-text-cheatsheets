@@ -1,26 +1,42 @@
 Xcode Shortcuts
 (Xcode 9)
-version 0.1
+version 0.2
 
 Some useful Xcode shortcuts. 
 
-Left Column
-command + 0 Show or Hide the left column
-command + 1 Project
-command + 2 Source Control
-command + 3 Symbol
-command + 4 Find
-command + 5 Issue
-command + 6 Test
-command + 7 Debug
-command + 8 Breakpoints
-command + 9 Report
+Left Column                                    Right Column
+---- ------                                    ----- ------
+command + 0 Show or Hide the Navigators        option + command + 0  Show or Hide the Utilities
+command + 1 Project                            option + command + 1  File Inspector
+command + 2 Source Control                     option + command + 2  Quick Help Inspector
+command + 3 Symbol                             option + command + 3  Identity Inspector
+command + 4 Find                               option + command + 4  Attributes Inspector
+command + 5 Issue                              option + command + 5  Size Inspector
+command + 6 Test                               option + command + 6  Connections 
+command + 7 Debug                              
+command + 8 Breakpoints                        
+command + 9 Report                             
 
-Right Column
-option + command + 0  Show or Hide the right column
-option + command + 1  File Inspector
-option + command + 2  Quick Help Inspector
-option + command + 3  Identity Inspector
-option + command + 4  Attributes Inspector
-option + command + 5  Size Inspector
-option + command + 6  Connections Inspector
+Bottom
+------
+command + shift + Y   Show or Hide Debug
+
+Editing
+-------
+command + control + E Edit All in Scope
+command + /           Comment Out Selection
+command + option + /  Document Function
+
+command + up          Top of File
+command + down        Bottom of File
+command + left        Beginning of Line
+command + right       End of Line
+
+option + left         Prev Word
+option + right        Next Word
+
+Filing
+------
+command + shift + O       Open Quickly
+command + control + left  Prev Word
+command + control + right Next Word
